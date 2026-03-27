@@ -1,0 +1,6 @@
+C:\C#_Project\ProcentCalculation\ProcentCalculation\bin\Debug\ProcentCalculation.dll
+C:\C#_Project\ProcentCalculation\ProcentCalculation\bin\Debug\ProcentCalculation.pdb
+C:\C#_Project\ProcentCalculation\ProcentCalculation\obj\Debug\ProcentCalculation.csproj.AssemblyReference.cache
+C:\C#_Project\ProcentCalculation\ProcentCalculation\obj\Debug\ProcentCalculation.csproj.CoreCompileInputs.cache
+C:\C#_Project\ProcentCalculation\ProcentCalculation\obj\Debug\ProcentCalculation.dll
+C:\C#_Project\ProcentCalculation\ProcentCalculation\obj\Debug\ProcentCalculation.pdb
