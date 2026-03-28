@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,30 +27,27 @@ namespace ProcentCalculation
         // исзодное число по проценту и значению
         public static double GetNumberByProcent(double procent, double NumberOfProcent)
         {
-            try
+            if (Math.Abs(NumberOfProcent / procent) < 1e-9)
             {
-                return (NumberOfProcent / procent) * 100;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
+                Console.WriteLine("Division by zero -- has return -1");
                 return -1;
             }
+
+            return (NumberOfProcent / procent) * 100;
+            
 
         }
 
         //процент, который первое число составляет от второго
-        public static double GetProcentOccourencebyNumbers(double valB, double valA)
+        public static double GetProcentOccourencebyNumbers(double valA, double valB)
         {
-            try
+
+            if (Math.Abs(valA / valB) < 1e-9)
             {
-                return (valA / valB) * 100;
-            }
-            catch (Exception e)
-            { 
-                Console.Write(e.Message);
+                Console.WriteLine("Division by zero -- has return -1");
                 return -1;
             }
+            return (valA / valB) * 100;
 
             
         }
