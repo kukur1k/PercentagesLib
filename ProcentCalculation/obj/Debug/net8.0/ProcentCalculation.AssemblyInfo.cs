@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Artem Pyrkin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("This Librarry use to calculation percentages")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("\r\n\t\t  1.0.0\r\n\t  +fe9015694ea29aa3f321a2fca8a68f3e52e1635b")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("\r\n\t\t  1.0.2\r\n\t  +a57fdc098c6c788740014edb37f84e3f61b21858")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcentCalculation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcentCalculation")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
