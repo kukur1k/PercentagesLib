@@ -27,7 +27,7 @@ namespace ProcentCalculation
         // исзодное число по проценту и значению
         public static double GetNumberByProcent(double procent, double NumberOfProcent)
         {
-            if (Math.Abs(NumberOfProcent / procent) < 1e-9)
+            if (Math.Abs(procent) < 1e-9)
             {
                 Console.WriteLine("Division by zero -- has return -1");
                 return -1;
@@ -42,7 +42,7 @@ namespace ProcentCalculation
         public static double GetProcentOccourencebyNumbers(double valA, double valB)
         {
 
-            if (Math.Abs(valA / valB) < 1e-9)
+            if (Math.Abs(valB) < 1e-9)
             {
                 Console.WriteLine("Division by zero -- has return -1");
                 return -1;
